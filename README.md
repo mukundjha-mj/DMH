@@ -42,8 +42,6 @@ Digital Medical History (DMH) is a revolutionary web application designed to sto
    Create a `.env.local` file and add:
    ```env
    VITE_CLERK_PUBLISHABLE_KEY=your_clerk_api_key
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_secret_key
    ```
 4. **Run the app**
    ```sh
