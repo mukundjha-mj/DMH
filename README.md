@@ -39,7 +39,7 @@ Digital Medical History (DMH) is a revolutionary web application designed to sto
    npm install
    ```
 3. **Set up environment variables**
-   Create a `.env` file and add:
+   Create a `.env.local` file and add:
    ```env
    REACT_APP_CLERK_API_KEY=your_clerk_api_key
    MONGO_URI=your_mongodb_connection_string
