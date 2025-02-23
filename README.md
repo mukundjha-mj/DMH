@@ -31,8 +31,8 @@ Digital Medical History (DMH) is a revolutionary web application designed to sto
 ### 🚀 Installation
 1. **Clone the repo**
    ```sh
-   git clone https://github.com/your-username/dmh.git
-   cd dmh
+   git clone https://github.com/mukundjha-mj/DMH.git
+   cd DMH
    ```
 2. **Install dependencies**
    ```sh
@@ -41,7 +41,7 @@ Digital Medical History (DMH) is a revolutionary web application designed to sto
 3. **Set up environment variables**
    Create a `.env.local` file and add:
    ```env
-   REACT_APP_CLERK_API_KEY=your_clerk_api_key
+   VITE_CLERK_PUBLISHABLE_KEY=your_clerk_api_key
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_secret_key
    ```
