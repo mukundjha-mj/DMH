@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"); */
+* {
+    --accent-primary: #0078d4;
+    --background-primary: #0d1117;
+    --button-secondary-background: #25292e;
+    --header-foreground: #c3d0e5;
+    --button-secondary-border: rgba(255, 255, 255, 0.3);
+    --foreground: #9ba3b4;
+}
+
+/* @layer utilities {
+    .scrollbar {
+        @apply scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-teal-100;
+    }
+} */
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #0d1117;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 40px !important;
+    width: 1326px;
+}
+
+.cl-internal-1dauvpw, .cl-internal-19lj6gi, .cl-internal-19lj6gi {
+    display: none;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    max-width: 1000px;
+    color: #c3d0e5;
+    font-weight: 700;
+    margin-top: 1rem;
+    line-height: 120%;
+    letter-spacing: -0.8px;
+}
